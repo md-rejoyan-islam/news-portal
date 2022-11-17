@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daily Online News</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body  style="background-color:#f6f6f7;">
+    <!-- header  navbar section -->
+    <header class="pt-4 text-secondary container">
+        <div class="row">
+            <div class="col-sm-6 justify-content-start">
+             <a href="./index.html" id="homepage"><h4 class="mt-2 d-inline-block">Daily <span class="bg-primary text-white p-2 rounded-1">Online</span> news</h4> </a>
+        </div>
+        <div class="col-sm-6">
+            <nav class="nav justify-content-end">
+                <a class="nav-link active btn" aria-current="page" href="./index.html">News</a>
+                <a class="nav-link btn " href="./blog.html">Blog</a>
+                <img src="https://image.shutterstock.com/image-photo/beautiful-young-asian-woman-clean-260nw-2136980425.jpg" alt="" id="header-img" style="width:50px;border-radius:50%">
+                
+            </nav>
+        </div>
+        </div>
+        
+    </header>
+    <!-- horizontal role -->
+    <hr>
+    <main class="container ">
+        <!-- body navbar section -->
+        <section id="body-header" style="margin-top:0;">
+            <ul class="nav justify-content-around pb-3 " id="nav-item"></ul>
+        </section>
+
+        <!-- dynamic category and news amount showing section-->
+        <section>
+            <div id="foundItem">
+                
+            </div>
+        </section>
+        <!-- sorting section -->
+        <section>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="d-inline-block"> Sort By View:</p>
+                    <select name="" id="" class="bg-white p-2 border-white border-0">
+                        <option value="default" class="bg-white">Default</option>
+                    </select>
+
+                </div>
+                <div class="col-sm-6  text-end">
+                    <a href="#"class="btn btn-primary">Today’s Pick</a>
+                    <a href="#"class="btn border-dark">Trending</a>
+                </div>
+            </div>
+        </section>
+
+
+<!-- loading spinner div -->
+        <div class="d-none" id="spinner">
+          <div
+            class="d-flex justify-content-center align-items-center"
+            style="height: 200px"
+          >
+            <div class="spinner-border" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
+        </div>
+
+
+        <section>
+            <div class="row" id="category_post">
+            </div>
+            </div>
+</div>
+        </section>
+
+        <!-- modal -->
+       
+        <section class="mb-5">
+
+            <div class="modal"  id="modalId">
+                <div class="modal-dialog">
+                    <div class="modal-content" id="modal_content">
+                    
+                    </div>
+                </div>
+                </div>
+
+        </section>
+
+    </main>
+
+    <footer class="container-fluid bg-white p-4 text-center fs-5 text-secondary" >
+      <p>Copyright 2021 News Portal</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/37c86d1d7c.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" ></script>
+  </body>
+</html>

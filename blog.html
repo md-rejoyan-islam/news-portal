@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body style="background-color:#f6f6f7;" class="container">
+     <header class="pt-4 text-secondary " >
+        <div class="row">
+            <div class="col-sm-6 justify-content-start">
+             <a href="./index.html" id="homepage"><h4 class="mt-2 d-inline-block">Daily <span class="bg-primary text-white p-2 rounded-1">Online</span> news</h4> </a>
+        </div>
+        <div class="col-sm-6">
+            <nav class="nav justify-content-end">
+                <a class="nav-link  btn" aria-current="page" href="./index.html">News</a>
+                <a class="nav-link btn  active" href="./blog.html">Blog</a>
+                <img src="https://image.shutterstock.com/image-photo/beautiful-young-asian-woman-clean-260nw-2136980425.jpg" alt="" id="header-img" style="width:50px;border-radius:50%" class="">
+                
+            </nav>
+        </div>
+        </div>
+        <hr>
+    </header>
+
+    <main >
+        <section class="my-5" >
+        <div>
+            <div class="card my-3 shadow">
+            <div class="card-header text-center">
+                <h3>forEach(), map(), filter() , find() </h3>
+            </div>
+        <div class="card-body">
+            <ul>
+                <li>.forEach() is used to execute the same code on every element in an array but does not change the array and it returns undefined.</li>
+                <li>.map() executes the same code on every element in an array and returns a new array with the updated elements.</li>
+                <li>.filter() checks every element in an array to see if it meets a certain criteria and returns a new array with the elements that return truthy for the criteria.</li>
+                <li>
+                    .find() method returns the value of the first element that passes a test. The find() method executes a function for each array element. The find() method returns undefined if no elements are found.
+                </li>
+            </ul>
+        </div>
+        </div>
+            <div class="card my-3 shadow" >
+            <div class="card-header text-center">
+                <h3>Template literals (Template strings) </h3>
+            </div>
+        <div class="card-body">
+            <p>Template literals are literals delimited with backtick (`) characters, allowing for multi-line strings, for string interpolation with embedded expressions, and for special constructs called tagged templates.
+
+            Template literals are sometimes informally called template strings, because they are used most commonly for string interpolation (to create strings by doing substitution of placeholders). However, a tagged template literal may not result in a string; it can be used with a custom tag function to perform whatever operations you want on the different parts of the template literal.</p>
+        </div>
+        </div>
+        <div>
+            <div class="card my-3 shadow">
+            <div class="card-header text-center">
+                <h3>Var Let and Const </h3>
+            </div>
+        <div class="card-body">
+            <p class="card-text">The differences between var, let, and const variable declaration in JavaScript include:
+            Variables declared with var and const are scoped to the immediate function body.
+            Variables declared with the var keyword are hoisted. Hoisting means that the variable can be accessed in their enclosing scope even before they are declared.
+            Variables declared with the let keyword are block-scoped, which means the variables will have scope to the immediate enclosing block.</p>
+        </div>
+        </div>
+        </div>
+        <div>
+            <div class="card my-3 shadow" >
+            <div class="card-header text-center">
+                <h3>Arrow function and Regular function</h3>
+            </div>
+        <div class="card-body ">
+            <p class="card-text">
+                JavaScript's arrow functions might seem the same as regular functions on the surface, but they have some very important differences:
+                </p>
+                   <ul>
+                    <li>Syntactical differences</li> 
+                   <li>this value (execution context)</li> 
+                   <li>Usage as methods</li> 
+                   <li>Usage as constructors</li> 
+                   <li>arguments binding</li>
+                   </ul>                  
+
+        </div>
+        </div>
+        </div>
+    </section>
+    </main>
+</body>
+</html>

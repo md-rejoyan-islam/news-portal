@@ -1,0 +1,22 @@
+
+#body-header li a:focus{
+    background-color:#dee0f8;
+    color: rgb(86, 73, 73) !important;
+    border-radius: 5px;
+}
+#homepage{
+    list-style:none;
+    text-decoration: none;
+}
+#homepage:hover{
+    background-color:white;
+}
+
+#body-header li a{
+    color: #858585 !important;
+}
+
+header a:focus {
+    background-color: rgb(80, 80, 187);
+    border-radius:5px;
+}
